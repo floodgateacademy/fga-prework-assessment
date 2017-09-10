@@ -1,12 +1,13 @@
-
-body{
-
-	background-color: white;
-}
-
+body {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+} 
 head, h2, p {
 	display: inline-block;
 }
+
 
 #layout {
 
