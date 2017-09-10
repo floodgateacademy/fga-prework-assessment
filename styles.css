@@ -1,11 +1,142 @@
+*{
+  border: 1px solid red;
+}
 body {
 	background-color: white;
+	font-family: Helvetica;
+
 }
 /* Top Navigation*/
 .topnav {
-background-image: url("images/header-bg@2x.png");
+	width: 100%;
+    color: white;
+    background-color: blue;
+    background: url("assets/images/header.png");
+   background-size: 1300px 500px;
+    background-repeat: no-repeat;
 }
-.topnav h1 {
-
+.hornav {
+	margin-bottom:50px;
+}
+.hornav h4 {
+	display: inline-block;
+}
+.hornav ul {
 	color: white;
+	letter-spacing: 2px;
+	display: inline-block;
+	list-style:none;
+	float: right;
+	text-decoration: none;
+}
+.hornav li {
+	display: inline-block;
+}
+.hornav a {
+	color:white;
+	text-decoration: none;
+	padding:20px;
+}
+
+/* Tag Line*/
+.info{
+	display:inline-block;
+	width:37%;
+	vertical-align: top;
+}
+
+.mobilepic{
+	display:inline-block;
+}
+.mobilepic img{
+	width:753px;
+	height:413px;
+	float:right;
+}
+}
+.tagline h1 {
+	margin: 20px;
+}
+#join {
+	background-color: #D84B4B; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 25px;
+}
+#demo {
+	background-color: #6A8BD6; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+/*Benefits*/
+.change {
+	width:100%;
+	margin:0px auto;
+	text-align: center;
+}
+.target{
+	display:inline-block;
+	width:32%;
+	margin:0px auto;
+}
+.performance{
+	display:inline-block;
+	width:32%;
+}
+.stats{
+	display:inline-block;
+	width:32%;
+}
+
+/*Pricing*/
+.basic{
+	display:inline-block;
+}
+.premium{
+	display:inline-block;
+}
+.management{
+	display:inline-block;
+}
+
+.enterprise{
+	display:inline-block;	
+}
+
+
+/*Footer*/
+.footer {
+    width: 100%;
+    background-color: ##D84B4B;
+    overflow: hidden;
+  }
+
+  .bottomnav{
+
+  }
+  .social img{
+  	width:30px;
+  margin: 10px;
+
+  }
+
+.footer ul {
+  list-style:none;
+  float: right;
+  margin-right: 20px;
+}
+.footer li {
+  display: inline-block;
 }
