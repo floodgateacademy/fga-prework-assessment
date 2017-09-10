@@ -81,7 +81,7 @@ body {
 }
 
 /*Benefits*/
-.change {
+.benefits {
 	width:100%;
 	margin:0px auto;
 	text-align: center;
@@ -101,42 +101,100 @@ body {
 }
 
 /*Pricing*/
+.pricing {
+	width:100%;
+	margin:0px auto;
+	text-align: center;
+}
 .basic{
 	display:inline-block;
+	width:24%;
 }
-.premium{
+.premium {
 	display:inline-block;
+	width:24%;
 }
-.management{
+.management {
 	display:inline-block;
+	width:24%;
 }
 
-.enterprise{
-	display:inline-block;	
+.enterprise {
+	display:inline-block;
+	width:24%;	
+}
+/*Customize Buy Now Buttons in Pricing Structure*/
+#basic, #premium, #management, #enterprise {
+	background-color: #D84B4B; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 25px;
 }
 
-
+/*Contact*/
+.touch {
+	display:inline-block;
+	width:40%;
+}
+.collectinfo {
+	display: inline-block;
+	width:39%;
+	float:right;
+}
 /*Footer*/
 .footer {
     width: 100%;
-    background-color: ##D84B4B;
-    overflow: hidden;
+    height:167px;
+    background-color: #D84B4B;
+    color: white;
   }
 
-  .bottomnav{
-
+  .bottomlogo {
+	display:inline-block;
+	width:10%;
   }
-  .social img{
-  	width:30px;
-  margin: 10px;
-
+  .footernav {
+  	display:inline-block;
+  	width:60%;
   }
-
-.footer ul {
-  list-style:none;
-  float: right;
-  margin-right: 20px;
+  .footernav ul {
+	color: white;
+	letter-spacing: 2px;
+	display: inline-block;
+	list-style:none;
+	float: right;
+	text-decoration: none;
 }
-.footer li {
+.footernav li {
   display: inline-block;
 }
+.footernav a {
+	color:white;
+	text-decoration: none;
+	padding:20px;
+}
+  .social {
+  display:inline-block;
+  width:20%;
+  }
+  .social ul {
+	display: inline-block;
+	list-style:none;
+	float: right;
+	letter-spacing: 2px;
+}
+ .social li {
+  	display: inline-block;
+}
+  .social img{
+  	width:52px;
+  margin: 10px;
+}
+
+
+
