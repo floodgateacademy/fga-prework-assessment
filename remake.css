@@ -1,27 +1,3 @@
-body {
-     
-     border: 50px ;
-     font-family: sans-serif;
+header {
+	background-image: url("/repo\fga\fga-prework-assessment\assets\images");
 }
-
-
- header {
- 	color: blue;
- 	display: inline-block;
- 	padding: 70px 300px 70px 300px;
- 	margin: 30px 30px 30px 30px;
- }
-
-
-r#ow1 {
-	text-align: center;
-}
-
-section {
-	text-align: center;
-}
-
- footer {
- 	clear :both;
- 	text-align: center;
- }
