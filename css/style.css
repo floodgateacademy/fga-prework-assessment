@@ -1,0 +1,31 @@
+#header_nav {
+	display: inline;
+	margin-top:30%;
+}
+.container {
+	width:1000px;
+	height:900px;
+}
+
+/* Change the way you shop */
+.shop_details {
+	list-style:none;
+	display: inline-block;
+	margin-left:200px;
+}
+.shop_details li {
+	list-style:none;
+	display: inline-block;
+	list-style: none;
+}
+.shop_details img {
+	display: inline-block;
+	list-style: none;
+	margin-right: ;
+	float:center;
+}
+.shop_details p {
+	text-align:center;
+	float:center;
+}
+
