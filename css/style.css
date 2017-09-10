@@ -38,8 +38,9 @@ nav a{
   right:60px;
 }
 .logo h3{
+  color:white;
   position: relative;
-  left:30px;
+  left:50px;
   bottom:40px;
   display:inline-block;
   font-size: 27px;
@@ -50,4 +51,61 @@ nav a{
   height:419px;
   position:relative;
   left:650px;
+  top:50px;
+}
+.message h3{
+  color: white;
+  font-size: 50px;
+  font-family: Helvetica;
+  width: 545px;
+  height: 114px;
+  position: relative;
+  bottom: 440px;
+  left:50px;
+}
+.message h6{
+  color: white;
+  font-size: 18px;
+  font-family: Helvetica;
+  width: 350px;
+  height: 30px;
+  position: relative;
+  bottom: 410px;
+  left:50px;
+}
+input.now {
+width: 160px;
+height: 55px;
+padding: 20px;
+cursor: pointer;
+font-weight: bold;
+font-size:18px;
+background:#D84B4B;
+color: #fff;
+border: 1px solid #3366cc;
+border-radius: 50px;
+-moz-box-shadow:: 6px 6px 5px #999;
+-webkit-box-shadow:: 6px 6px 5px #999;
+box-shadow:: 6px 6px 5px #999;
+position: relative;
+bottom:420px;
+left:50px;
+}
+input.demo {
+width:160px;
+height: 55px;
+padding: 20px;
+cursor: pointer;
+font-weight: bold;
+font-size:18px;
+background:#6A8BD6;
+color: #fff;
+border: 1px solid #3366cc;
+border-radius: 50px;
+-moz-box-shadow:: 6px 6px 5px #999;
+-webkit-box-shadow:: 6px 6px 5px #999;
+box-shadow:: 6px 6px 5px #999;
+position: relative;
+bottom:420px;
+left:70px;
 }
