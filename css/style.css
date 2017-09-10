@@ -1,0 +1,53 @@
+body{
+  width: 1400px;
+  height:2571px;
+  border:2px solid red;
+  background-color: white;
+}
+
+.header{
+border:2px solid blue;
+color:black;
+height:600px;
+width:1400px;
+background-image: url('C:/Users/heave/Repo/fga/projects/assesment/fga-prework-assessment/assets/images/Headerbg.jpg');
+background-size: contain;
+}
+nav{
+  text-align:right;
+}
+nav ul{
+position: relative;
+top:50px;
+right: 10px;
+display: inline-block;
+width: 20%
+}
+nav li{
+display:inline;
+margin:10px 10px 0px 0px;
+}
+nav a{
+  color:white;
+  text-decoration: none;
+  font-size:15px;
+  text-align:right;
+  padding: 10px 10px;
+  font-family: Helvetica;
+  position: relative;
+  right:60px;
+}
+.logo h3{
+  position: relative;
+  left:30px;
+  bottom:40px;
+  display:inline-block;
+  font-size: 27px;
+  font-family: Helvetica Neue;
+}
+.phone img{
+  width:753px;
+  height:419px;
+  position:relative;
+  left:650px;
+}
