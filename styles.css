@@ -1,0 +1,11 @@
+body {
+	background-color: white;
+}
+/* Top Navigation*/
+.topnav {
+background-image: url("images/header-bg@2x.png");
+}
+.topnav h1 {
+
+	color: white;
+}
