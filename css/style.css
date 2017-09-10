@@ -109,3 +109,123 @@ position: relative;
 bottom:420px;
 left:70px;
 }
+/*The code above is for my header only---------*/
+
+.shop{
+  width: 1063px;
+  height: 286px;
+  position: relative;
+  left:160px;
+  top:30px;
+}
+.shop h2{
+  width: 500px;
+  height: 100px;
+  font-size:40px;
+  font-family:Helvetica;
+  color:#34373E;
+  text-align:center;
+  position: relative;
+  left:290px;
+  bottom: 30px;
+}
+.shop h5{
+  width: 300px;
+  height: 20px;
+  font-size:18px;
+  font-family:Helvetica;
+  color:#6C7280;
+  text-align:center;
+  position: relative;
+  left:380px;
+  bottom: 100px;
+}
+.target img{
+  width:41px;
+  height: 41px;
+  position: relative;
+  bottom: 100px;
+  left:70px;
+}
+
+.target h3{
+  width: 200px;
+  height: 22px;
+  font-size:20px;
+  font-family:Helvetica;
+  color:#34373E;
+  position: relative;
+  bottom:120px;
+  left:10px;
+}
+.target p{
+  width: 166px;
+  height: 63px;
+  font-size:16px;
+  font-family:Helvetica;
+  color:#34373E;
+  position: relative;
+  bottom:135px;
+  left:10px;
+}
+.great img{
+  width:41px;
+  height: 41px;
+  position: relative;
+  bottom: 275px;
+  left:500px;
+}
+
+.great h3{
+  width: 200px;
+  height: 22px;
+  font-size:20px;
+  font-family:Helvetica;
+  color:#34373E;
+  position: relative;
+  bottom:295px;
+  left:450px;
+}
+.great p{
+  width: 166px;
+  height: 63px;
+  font-size:16px;
+  font-family:Helvetica;
+  color:#34373E;
+  position: relative;
+  bottom:310px;
+  left:450px;
+}
+.stats img{
+  width:41px;
+  height: 41px;
+  position: relative;
+  bottom: 450px;
+  left:950px;
+}
+
+.stats h3{
+  width: 200px;
+  height: 22px;
+  font-size:20px;
+  font-family:Helvetica;
+  color:#34373E;
+  position: relative;
+  bottom:470px;
+  left:905px;
+}
+.stats p{
+  width: 166px;
+  height: 63px;
+  font-size:16px;
+  font-family:Helvetica;
+  color:#34373E;
+  position: relative;
+  bottom:490px;
+  left:905px;
+}
+hr{
+  position: relative;
+  top:40px;
+}
+/*The code above is for the second section of page only---------*/
