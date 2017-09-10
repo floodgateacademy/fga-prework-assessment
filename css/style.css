@@ -1,11 +1,12 @@
 * {
-  border: 1px solid red;
+  border: 1px /*solid red*/;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 header {
   /*background: url(""assets/images/header-bg@2x.png"");*/
+  background-color: grey;
 }
 .header_img {
   /*width: 100%;
@@ -34,8 +35,9 @@ header li, header h2, header a{
   display: inline-block;
  text-decoration: none;
  padding-left: 10%;
- color: black;
+ color: white;
  list-style: none;
+
 }
 footer {
   width: 100%;
@@ -53,30 +55,59 @@ footer li, footer ul, footer a, footer h2 {
   padding-bottom: 5em;
   padding-left: 5em;
   margin: 5em;
+  /*background-color: grey;*/
 }
 .change_container {
   /*display: inline-block;*/
   padding-bottom: 5em;
+  padding-left: 5em;
+
   /*margin-left: 5em;*/
-  float: left;
+  /*float: left;*/
 }
 .change {
   display: inline-block;
-
+  border: 1px solid grey;
+  margin-left: 10em;
+  margin-bottom: 10em;
 }
 .smart {
   display: inline-block;
-  margin-left: 5em;
+  margin-left: 10em;
+  margin-bottom: 8em;
 }
 .smart_pricing h2, .smart_pricing h4{
   text-align: center;
   /*margin-left: 5em;*/
 }
 .smart_pricing {
+
   clear: both;
 }
 .change h2, .change h4 {
   text-align: center;
+}
+.contact {
+  display: inline;
+  margin-left: 5em;
+}
+.smart_text {
+  text-align: center;
+}
+.form {
+  margin-left: 50em;
+  height: 5em;
+  display: block;
+  resize: vertical;
+  padding-bottom: 10em;
+  width: 25%;
+  border: 1px solid black;
+}
+textarea, input[type="text"]{
+  border: 1px solid black;
+}
+.text {
+  margin-left: 5em;
 }
 /*.target {
   display: inline-block;
