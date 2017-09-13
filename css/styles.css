@@ -5,7 +5,7 @@
   border: 1px solid red;
 }
 
-body {
+/*body {
 	height : 978px;
 	overflow: auto;
 }
@@ -75,6 +75,7 @@ h3 {
 	margin-left: 60px;
 	width: 500px;
 	height: 200px;
+	width: 49%;
 }
 .descrPlusButtons button {
 	margin: 10px;
@@ -82,6 +83,11 @@ h3 {
 	height: 50px;
 	width: 150px;
 	border-radius: 50px;
+}
+
+.phoneImg {
+	display: inline-block;
+	width: 49%;
 }
 
 #first  {
@@ -122,6 +128,10 @@ h3 {
 	padding-top: 
 }
 
-.smartPricing {
-	display: inline-block;
+.smartPricing, .smartPricing {
+	display: inline;
+	text-align: center;
 }
+
+
+*/
