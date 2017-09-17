@@ -10,7 +10,7 @@ border:2px solid blue;
 color:black;
 height:600px;
 width:1400px;
-background-image: url('C:/Users/heave/Repo/fga/projects/assesment/fga-prework-assessment/assets/images/Headerbg.jpg');
+background-image: url('../assets/images/Headerbg.jpg');
 background-size: contain;
 }
 nav{
@@ -259,7 +259,7 @@ hr{
 }
 .b{
   width:1108px;
-  height: 518px;
+  height: px;
   border:1px solid red;
   display: inline;
   padding: 60px;
