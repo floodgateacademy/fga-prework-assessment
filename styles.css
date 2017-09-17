@@ -1,0 +1,103 @@
+
+.headerimg{
+	 height: 1400px; 
+    width: 600px; 
+   
+
+}
+
+#button1 button{
+
+	border-radius: 12px;
+	background-color: #D84B4B;
+
+
+}
+
+#button2 button{
+
+	border-radius: 500px;
+	background-color: #6A8BD6;
+
+}
+
+.phone img{
+
+	height: 753px;
+	width: 419px;
+}
+
+#myTopnav{
+	display: inline-block;
+}
+
+#myTopnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    text-align: right;
+}
+
+#myTopnav li {
+    float: right;
+}
+
+#myTopnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: right;
+}
+
+
+#maincontent h1{
+	text-align: center;
+}
+#maincontent h4{
+
+	text-align: center;
+}
+
+#centercontent{
+
+	text-align: center;
+}
+
+#myBottomnav{
+
+	
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #D84B4B;
+  text-align: center;
+
+}
+
+#myBottomnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+     width:200px;
+  	height:40px;
+}
+
+#myBottomnav li a {
+    display: inline;
+    color: white;
+    padding: 0px 0px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    align-content: right;
+
+}
+
+
+
+
+
