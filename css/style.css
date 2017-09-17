@@ -137,26 +137,29 @@ header ul {
 #best, #premium{
   margin-bottom: 10px;
 }
+
 .smart h2 {
   margin-bottom: 25px;
   margin-top: 20px;
 }
-.smart h2, p {
+.smart h2, ul {
   margin-top: 15px;
   line-height: 25px;
+  list-style: none;
 }
 .smart h5, #best {
   margin: 15px 25px 15px 25px;
 }
-.smart:hover{
+.smart:hover {
   box-shadow: 0px 6px 29px grey;
 }
 .type {
   background-color: #F7F7F7;
   border: 1px solid #F7F7F7;
 }
-.type:hover{
+.smart:hover .type{      /*this say "after the smart parent hover, stype the type div".*/
   background-color: #6A8BD6;
+  color: white;
 }
 .price_btn {
   padding: 7px;
@@ -180,14 +183,7 @@ header ul {
 .smart_text, #premium, input[value] {
   text-align: center;
 }
-/*.form {
-  height: 5em;
-  display: inline-block;
-  resize: vertical;
-  padding-bottom: 10em;
-  width: 25%;
-  border: 1px solid black;
-}*/
+
 form {
   background-color: #FAFAFA;
   width: 300px;
@@ -208,16 +204,6 @@ form {
 textarea, input[type="text"]{
   border: 1px solid black;
 }
-/*.text h2, h5 {
-  margin-right: 1em;
-  text-align: left;
-  margin-bottom: 5px;
-}*/
-
-/*#user-message {
-  padding: 60px;
-  margin-left: 70px;
-}*/
 
 #user-email, #first, #user-message {
   margin-top: 20px;
