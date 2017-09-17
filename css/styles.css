@@ -1,15 +1,156 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  border: 1px solid red;
+  border: 0.5px solid red;
 }
 
-/*body {
-	height : 978px;
-	overflow: auto;
+body {
+	font-family: "Helvetica", sans-serif;
+
 }
 
+.logoplusnav {
+	display: inline-block;
+}
+
+.nav ul  {
+	display: inline-block;
+}
+
+.nav ul a {
+	display: inline-block;
+	width: 100px;
+	text-decoration: none;
+	font-family: sans-serif;
+	color: white;
+}
+
+.descrPlusButtons  {
+	width: 49%;
+	height: 
+}
+
+.phoneImg img {
+	width: 753px;
+	height: 419px;
+}
+
+.container {
+	/*margin: 10px;*/
+	width: 1400px;
+
+}
+
+.header {
+	overflow: hidden;
+	width: 1400px;
+	height: 600px;
+	background-image: url('../assets/images/header-bg@2x.png');
+	display: inline-block;
+
+}
+
+.header h3 , .footer h3 {
+	width: 106px;
+	height: 30px;
+}
+
+.changeTheway {
+	display: inline-block;
+}
+.target {
+	width: 166px;
+}
+
+.target img {
+	width: 40px;
+	height: 40px;
+}
+
+.performances  {
+	width: 178px;
+}
+
+.performances img {
+	width: 23px;
+	height: 43px;
+}
+
+.stats img {
+	width: 51px;
+	height: 38px;
+}
+.stats {
+	width: 184px;
+}
+
+.smartPricing {
+	width: 1108px;
+	height: 516px;
+}
+
+.getInTouch {
+	width: 941px;
+	height: 480px;
+}
+
+.footer {
+	width: 1400px;
+	display: inline-block;
+	height: 167px;
+}
+
+.footernav { 
+	width: 533px;
+	display: inline-block;
+	height: 18px;
+}
+
+.footernav li {
+
+}
+
+.socialMedia img {
+	width: 52px;
+	height: 52px;
+}
+
+/*
+.footer ul {
+	margin: 75px 0px;
+}
+
+.footer li {
+	margin-right: 230px;
+}
+
+.footer li: first-child {
+	margin-left: 230px;
+}
+
+.footer li: last-child {
+	margin-right: 210px;
+}*?
+
+.socialMedia img {
+	width: 52px;
+	height: 52px;
+}
+
+
+/*
+.changeTheWay  {
+	width: 1063px;
+	text-align: center;
+	height: 286px;
+}
+
+.smartPricing {
+	width: 1108px;
+	height: 516px;
+}
+
+/*
 .header {
 	font-color: white;
 	font-family: serif;
