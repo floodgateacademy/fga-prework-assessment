@@ -1,0 +1,402 @@
+
+/* Container (Universal) */ 
+* {
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+  border: 1px solid red; 
+}
+
+body {
+	font-family: "Helvetica", sans-serif;
+	
+
+}
+
+#container {
+	width: 1348px;
+	margin: 0 auto; 
+	border:2px solid red;
+	padding: 5px;
+	text-align: center;
+}
+
+/* Header */
+#header {
+	background-size: 100% ;
+	height: 600px;
+	background-image: url("../assets/images/header-bg@2x.png");
+	background-repeat:no-repeat;
+	margin-bottom: 5px;
+	
+}
+
+nav ul li a {
+	display: inline-block;
+	text-decoration: none;
+	font-family: Helvetica;
+	color: white;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline;
+	list-style: none;
+	margin-right:30px;
+}
+
+#header nav ul {
+	width: 300px;
+	float: right;
+	margin-top: 5px;
+	margin-left: 50%;
+	margin-right: 20px;
+}
+
+#header nav {
+	margin-top: 15px;
+
+}
+
+.footer nav ul {
+	width: 700px;
+	vertical-align
+	
+}
+
+.footer nav {
+	width: 700px;
+	margin-left: 300px;
+	margin-top: 15px;
+}
+
+
+
+.footer ul {
+	display: inline-block;
+}
+
+.footer li {
+	display: inline;
+	 margin-right: 85px;
+}
+
+.footer li : first-child {
+	margin-left: 230px;
+}
+
+.footer li : last-child {
+	margin-right: 210px;
+}
+.socialmedia {
+	width: 52px;
+	height: 52px;
+}
+
+#social {
+	vertical-align: top;
+	float: right;
+	margin-right: 120px;
+}
+
+#top-logo, #logo-bottom {
+	font-weight: bold;
+	font-family: Helvetica;
+	color: white;
+	margin-top: 25px;
+	font-size: 27px;
+	margin-right: 100px;
+}
+
+#logo-bottom { 
+	margin-left: 100px;
+	float: left;
+}
+
+.footer {
+	background-color: #D84B4B;
+	height: 167px;
+}
+
+
+.subheader {
+	display: inline-block;
+	vertical-align: top;
+	width: 46%;
+	padding: 25px;
+	margin-left: 15px;
+	margin-top: 60px;
+}
+
+.subheader h1, h3 {
+	margin-bottom: 10px;
+	color: white;
+}
+
+.subheader button {
+	width: 160px;
+	color: white;
+	font-weight: bold;
+	height: 55px;
+}
+
+.subheader img {
+	width: 750px;
+	height: 419px;
+}
+
+#phone {
+	width: 100%;
+	float: right;
+	margin-left: 0px;
+}
+
+
+/* Change the way */
+#changeTheWay {
+	width: 1063px;
+	
+	margin-bottom: 10px;
+	
+	display: inline-block;
+}
+
+.feature img {
+	height: 40px;
+	width: auto;
+	display: block;
+	margin: 0px auto 20px;
+}
+
+.feature {
+	display: inline-block;
+	width: 178px;
+	height: 160px;
+	vertical-align: top;
+}
+
+
+.pitch  {
+	width: 163px;
+	height: 26;
+	text-align: center;
+	margin:auto;
+}
+
+/* Smart Pricing */
+#smartPricing {
+	margin-bottom: 20px;
+	display: inline-block;
+	padding-left:5%;
+	padding-right: 5%;
+	text-align: center;
+}
+
+#price-table {
+	margin-right: 10px;
+	width: 1108px;
+	height: 516px;
+	display: inline-block;
+	padding-right: 5%;
+	padding-right: 5%;
+	text-align: center;
+	margin: 50px 0px 100px;
+}
+.offer-title {
+	width: 232px;
+	height: 64px;
+	background-color: #F7F7F7;
+}
+
+.price {
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.offer {
+	width: 232px;
+	height: 385px;
+	display: inline-block;
+	list-style: none;
+	vertical-align: top;
+	padding: 50px;
+}
+
+.offer ul li {
+	list-style: none;
+	display: block;
+	padding: 5px;
+}
+
+.title-box {
+	width: 232px;
+	height: 64px;
+	background-color: #F7F7F7;
+
+}
+
+
+.tagline {
+	font-family: Helvetica; 
+	font-size: 40px;
+	color:black;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.pitch {
+	font-size: 16px;
+	font-family: Helvetica; 
+}
+
+
+.phrase {
+	font-family: Helvetica; 
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+
+#blue {
+	background-color: 
+}
+
+button {
+	width: 118px;
+	height: 37px;
+	background-color: red;
+	border-radius: 30px;
+	font-color: white;
+	font-weight: bold;
+}
+
+
+.buybutton {
+	width: 118px;
+    height: 37px;
+    border-radius: 30px;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: bold;
+}
+
+
+/* Get in Touch  */ 
+.blue {
+	width: 330px;
+	height: 60px;
+	border-radius: 0px;
+	background-color: #6A8BD6;
+	font-color: white;
+}
+
+#getInTouch {
+	width: 941px;
+	height: 480px;
+	display: inline-block;
+}
+
+#getIn {
+	width: 531px;
+	height: 440px;
+
+	display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    padding-right:50px;
+    padding-left: 50px;
+}
+
+form {
+	display: inline-block;
+    width: 410px;
+    height: 440px;
+    background-color: #FAFAFA;
+    border: 1px solid  #DDDDDD;
+    padding-top: 20px;
+    margin-bottom: 100px
+}
+/* Footer */ 
+
+/*.descrPlusButtons  {
+	width: 49%;
+}
+
+.phoneImg img {
+	width: 753px;
+	height: 419px;
+}
+
+.container {
+	/*margin: 10px;/
+	width: 1400px;
+
+}
+
+
+.header h3 , .footer h3 {
+	width: 106px;
+	height: 30px;
+}
+
+.changeTheway {
+	display: inline-block;
+}
+.target {
+	width: 166px;
+}
+
+.target img {
+	width: 40px;
+	height: 40px;
+}
+
+.performances  {
+	width: 178px;
+}
+
+.performances img {
+	width: 23px;
+	height: 43px;
+}
+
+.stats img {
+	width: 51px;
+	height: 38px;
+}
+.stats {
+	width: 184px;
+}
+
+.smartPricing {
+	width: 1108px;
+	height: 516px;
+}
+
+.getInTouch {
+	width: 941px;
+	height: 480px;
+}
+
+.footer {
+	width: 1400px;
+	display: inline-block;
+	height: 167px;
+}
+
+.footernav { 
+	width: 533px;
+	display: inline-block;
+	height: 18px;
+}
+
+.footernav li {
+
+}
+
+.socialMedia img {
+	width: 52px;
+	height: 52px;
+}
+*/
